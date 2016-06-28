@@ -66,7 +66,7 @@ body {
 
 .info {
 	float:left;
-	width:50%;
+	width:70%;
 }
 .info p:first-child {
 	font-size: 25px;
@@ -187,4 +187,53 @@ body {
   font-size: 10px;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+@media (max-width:800px){
+
+	body {
+		margin: 15% 15% 5%;
+	}
+	.picture {
+		width:25%;
+	}
+	.info p, a {
+		font-size:14px;
+	}
+	.info p:first-child {
+		font-size: 22px;
+	}
+
+	.title {
+		font-size:20px;
+	}
+	.container i {
+		font-size:25px;
+	}
+
+}
+
+@media (max-width:600px){
+
+	body {
+		margin: 18% 15% 5%;
+	}
+	.info p, a {
+		font-size:12px;
+	}
+	.info p:first-child {
+		font-size: 20px;
+	}
+
+	.title {
+		font-size:18px;
+	}
+	.container i {
+		font-size:22px;
+	}
+	.section p {
+		font-size:14px;
+	}
+
+
 }
