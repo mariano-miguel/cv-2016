@@ -265,6 +265,9 @@ body {
 		font-size:15px;
 		text-align:center;
 	}
+	.container {
+		margin-bottom:5%;
+	}
 	.container i {
 		font-size:18px;
 	}
@@ -276,7 +279,7 @@ body {
 		text-align: center;
 		float: left;
 		padding: 0px 7.5%;
-		margin-left: 6%;
+		margin: 0 0 3% 6%;
 	}
 	.left-form, .right-form {
 		width: 100%;
