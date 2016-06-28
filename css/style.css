@@ -130,63 +130,63 @@ body {
 	margin-top: 3%;
 }
 .icon{
-  width: 25%;
-  text-align: center;
-  float: left;
-  padding: 0 2.5%;
+	width: 25%;
+	text-align: center;
+	float: left;
+	padding: 0 2.5%;
 }
 
 .contact-form {
-  width:100%;
+	width:100%;
 }
 .left-form, .right-form {
-  width: 50%;
-  float: left;
+	width: 50%;
+	float: left;
 }
 
 .left-form input{
-  border:solid 1px grey;
-  width: 95%;
-  height: 60px;
-  font-size: 13px;
-  font-family: inherit;
-  border-radius: 5px;
-  padding-left: 10px;
-  margin: 0 2.5% 0 2.5%;
-  float: left;
+	border:solid 1px grey;
+	width: 95%;
+	height: 60px;
+	font-size: 13px;
+	font-family: inherit;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin: 0 2.5% 0 2.5%;
+	float: left;
 }
 .left-form input:first-child{
 	margin-bottom:50px;
 }
 .right-form input{
-  border:solid 1px grey;
-  width: 95%;
-  height: 170px;
-  font-size: 13px;
-  font-family: inherit;
-  border-radius: 5px;
-  padding-left: 10px;
-  margin: 0 2.5%;
-  float: right;
-  padding-bottom: 120px;
+	border:solid 1px grey;
+	width: 95%;
+	height: 170px;
+	font-size: 13px;
+	font-family: inherit;
+	border-radius: 5px;
+	padding-left: 10px;
+	margin: 0 2.5%;
+	float: right;
+	padding-bottom: 120px;
 }
 .contact-button {
-  width:100%;
-  margin:10px auto;
-  text-align: center;
-  margin-top:3%;
+	width:100%;
+	margin:10px auto;
+	text-align: center;
+	margin-top:3%;
 }
 .button-form {
-  border: none;
-  background-color: #06B4F2;
-  width: 20%;
-  height: 40px;
-  color: #fff;
-  border-radius: 5px;
-  font-family: inherit;
-  font-size: 10px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+	border: none;
+	background-color: #06B4F2;
+	width: 20%;
+	height: 40px;
+	color: #fff;
+	border-radius: 5px;
+	font-family: inherit;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 @media (max-width:800px){
@@ -234,6 +234,63 @@ body {
 	.section p {
 		font-size:14px;
 	}
+
+	.section {
+		margin: 10% 0;
+	}
+	.info-name {
+		margin-top: 8%;
+	}
+
+}
+
+@media (max-width:470px){
+	.info {
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+
+	.info p:first-child {
+		font-size: 18px;
+	}
+
+	.picture {
+		float:none;
+		width:40%;
+		margin: auto;
+	}
+
+	.title {
+		font-size:15px;
+		text-align:center;
+	}
+	.container i {
+		font-size:18px;
+	}
+	.section p {
+		font-size:12px;
+	}
+	.icon {
+		width: 40%;
+		text-align: center;
+		float: left;
+		padding: 0px 7.5%;
+		margin-left: 6%;
+	}
+	.left-form, .right-form {
+		width: 100%;
+		float: none;
+	}
+	.left-form input, .right-form input {
+		font-size:12px;
+		margin-bottom: 3%;
+	}
+	.button-form {
+		width: 30%;
+	}
+	.left-form input:first-child {
+    	margin-bottom: 3%;
 
 
 }
